@@ -1,0 +1,41 @@
+<footer class="footer">
+	
+	{% if page.use-cta %}
+
+	<section class="cta">
+	    <div class="cta__content">
+	        <h2>{{ page.cta-title }}</h2>
+	        <h3>{{ page.cta-subtitle }}</h3>
+	        <a class="button" href="{{ page.cta-button-url }}">{{ page.cta-button-label }}</a>
+	    </div>
+	</section>
+
+
+
+	{% endif %}
+	
+	
+    <div class="footer__content">© Verrify – All Rights Reserved – {{ site.email }}</div>
+
+    <ul class="footer__links">	
+	{% for footnav in site.navigation-footer %}
+        <li>
+			<a href="{{ footnav.url }}">{{ footnav.label }}</a>
+        </li>
+	{% endfor %}
+	</ul>
+	
+</footer>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+	var navElem = document.getElementById("nav"), hamburgler = document.getElementById("nav-toggle");
+    hamburgler && (hamburgler.onclick = function(e) 
+	{
+        return navElem.classList.toggle("navigation--open")
+    });
+</script>

@@ -1,0 +1,33 @@
+---
+id: 404page
+title: 404
+permalink: /404.html
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+  {% include head.html %}
+
+  <body id="{{ page.id }}">
+
+    <div class="container">
+		
+		{% include header.html %}
+
+        <main class="main--404">
+            <div class="not-found">
+                <div class="not-found__content">
+                    <h1 data-text="404">404</h1>
+                </div>
+            </div>
+        </main>
+
+		{% include footer.html %}
+
+
+    </div>
+
+  </body>
+
+</html>

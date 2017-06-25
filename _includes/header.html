@@ -1,6 +1,6 @@
 <header>
 
-	<div class="header__wrapper" {% unless page.use-hero %}style="background-color: #001331; border-bottom: 1px solid #5f6e86;"{% endunless %}>
+	<div class="header__wrapper" {% unless page.use-hero %}style="background-color: #2b1b1f; border-bottom: 1px solid #9e9393;"{% endunless %}>
     	<div class="header">
 			
     	    <a class="logo" href="/">
@@ -35,7 +35,9 @@
 	    <div class="hero__content">
 	        <h1>{{ page.hero-title }}</h1>
 	        <h2>{{ page.hero-subtitle }}</h2>
+			{% if page.hero-button-label and page.hero-button-url %}
 	        <a class="button" href="{{ page.hero-button-url }}">{{ page.hero-button-label }}</a>
+			{% endif %}
 	    </div>
 	</section>
 	

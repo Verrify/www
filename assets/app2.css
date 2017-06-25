@@ -130,14 +130,14 @@ pre,code {
 }
 
 code {
-    color: #5f6e86;
+    color: #9e9393;
     overflow: scroll
 }
 
 pre {
     margin: 0 !important;
     color: #fff;
-    background-color: #001331
+    background-color: #2b1b1f;
 }
 
 pre code {
@@ -202,7 +202,7 @@ hr {
 }
 
 .notice {
-    color: #001331;
+    color: #2B1B1F;
     margin: 1.25rem 0;
     padding: 1rem 1.25rem;
     background-color: #f7f8fb;
@@ -248,8 +248,8 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: -webkit-linear-gradient(bottom, rgba(0,19,49,0) 75%, rgba(0,19,49,0.85) 95%);
-    background-image: linear-gradient(to top, rgba(0,19,49,0) 75%, rgba(0,19,49,0.85) 95%);
+    background-image: -webkit-linear-gradient(bottom, rgba(21,14,14,0) 75%, rgba(21,14,14,0.85) 95%);
+    background-image: linear-gradient(to top, rgba(21,14,14,0) 75%, rgba(21,14,14,0.85) 95%);
     z-index: 1;
     pointer-events: none
 }
@@ -264,7 +264,7 @@ hr {
     position: absolute;
     bottom: 0;
     left: 1rem;
-    background-color: #001331
+    background-color: #2b1b1f;
 }
 
 .code-block__toggle-button {
@@ -323,7 +323,7 @@ hr {
 }
 
 .integration h2 {
-    color: #001331;
+    color: #2B1B1F;
     font-size: 2rem;
     line-height: 1.5;
     margin-top: 0
@@ -336,7 +336,7 @@ hr {
 }
 
 .integration p {
-    color: #5f6e86;
+    color: #9e9393;
     font-size: 1.15rem
 }
 
@@ -352,7 +352,7 @@ hr {
 }
 
 .plans__heading {
-    color: #001331;
+    color: #2B1B1F;
     font-family: "Ubuntu",sans-serif;
     font-size: 1.25rem;
     font-weight: 300;
@@ -440,7 +440,7 @@ hr {
 }
 
 .plans__plan__promotion {
-    color: #001331;
+    color: #2B1B1F;
     font-family: "Ubuntu",sans-serif;
     font-weight: 400;
     font-size: 0.875rem;
@@ -793,7 +793,7 @@ hr {
     -ms-user-select: none;
     user-select: none;
     cursor: default;
-    color: #5f6e86;
+    color: #9e9393;
     font-size: 5rem;
     padding: 1rem;
     border: 3px solid #d1d6de;
@@ -1079,8 +1079,8 @@ hr {
 }
 
 .lang__toolbar__wrapper {
-    background-color: #041024;
-    border-bottom: 1px solid #162640
+    background-color: #290707;
+    border-bottom: 1px solid #402020
 }
 
 .lang__option {
@@ -1102,7 +1102,7 @@ hr {
 }
 
 .lang__option:disabled {
-    color: #5f6e86;
+    color: #9e9393;
     cursor: default
 }
 
@@ -1113,7 +1113,7 @@ hr {
 }
 
 .lang__code {
-    background-color: #001331
+    background-color: #2b1b1f;
 }
 
 .lang__code pre {
@@ -1202,7 +1202,7 @@ hr {
     color: #fff;
     margin-top: 1rem;
     border: none;
-    background-color: #001331
+    background-color: #2B1B1F
 }
 
 .integrate {
@@ -1233,7 +1233,7 @@ hr {
     -ms-user-select: none;
     user-select: none;
     cursor: default;
-    color: #5f6e86;
+    color: #9e9393;
     font-size: 1.55rem;
     font-weight: 200;
     text-align: center;
@@ -1249,7 +1249,7 @@ hr {
 .integrate__wrapper {
     position: relative;
     margin: 3rem 0 5rem;
-    background-color: #001331;
+    background-color: #2B1B1F;
     z-index: 3
 }
 
@@ -1360,7 +1360,7 @@ hr {
 }
 
 .integrate__platform h3 {
-    color: #5f6e86;
+    color: #9e9393;
     font-size: 1.25rem;
     font-weight: 200;
     width: 100%;
@@ -1422,7 +1422,7 @@ hr {
 }
 
 .integrate__actions {
-    color: #5f6e86;
+    color: #9e9393;
     text-align: center;
     margin-top: 1.5rem
 }
@@ -1539,8 +1539,8 @@ hr {
     left: 0;
     width: 4rem;
     height: 100%;
-    color: #5f6e86;
-    background-color: #001331;
+    color: #9e9393;
+    background-color: #2b1b1f;
     border-bottom: 1px solid rgba(95,110,134,0.25);
     border-right: 1px solid rgba(95,110,134,0.25);
     cursor: pointer
@@ -1563,7 +1563,7 @@ hr {
 .ref__languages,.guide__header__background {
     margin-left: 4rem;
     padding: 0.75rem 1rem;
-    background-color: #001331;
+    background-color: #2b1b1f;
     border-bottom: 1px solid rgba(95,110,134,0.25);
     pointer-events: all
 }
@@ -1586,7 +1586,7 @@ hr {
 }
 
 .ref__languages__language:disabled {
-    color: #5f6e86;
+    color: #9e9393;
     cursor: default
 }
 
@@ -1607,7 +1607,7 @@ hr {
     top: 0;
     bottom: 0;
     left: 0;
-    color: #5f6e86;
+    color: #9e9393;
     width: 15rem;
     background-color: #f7f8fb;
     box-shadow: -1px 0 0 rgba(95,110,134,0.25) inset;
@@ -1640,7 +1640,7 @@ hr {
 .ref__sidebar__logo,.guide__sidebar__logo {
     position: relative;
     padding: 1.5rem 1rem;
-    background-color: #001331;
+    background-color: #2b1b1f;
     border-right: 1px solid rgba(95,110,134,0.25);
     z-index: 50
 }
@@ -1662,7 +1662,7 @@ hr {
 }
 
 .ref__sidebar__item,.guide__sidebar__item,.guide__sidebar__subitem,.ref__sidebar__subitem,.guide__sidebar__subitem {
-    color: #5f6e86;
+    color: #9e9393;
     margin: 0.25rem 0
 }
 
@@ -1780,7 +1780,7 @@ hr {
     position: absolute;
     top: 0;
     left: -1.25rem;
-    color: #5f6e86;
+    color: #9e9393;
     font-size: 1rem;
     width: calc(100% + 1.25rem);
     height: 100%;
@@ -1799,7 +1799,7 @@ hr {
 }
 
 .anchor:hover {
-    color: #5f6e86;
+    color: #9e9393;
     text-decoration: none
 }
 
@@ -1857,13 +1857,13 @@ hr {
 }
 
 .definition h4,.example h4,.offset h4 {
-    color: #5f6e86;
+    color: #9e9393;
     font-size: 1rem;
     font-weight: 400
 }
 
 .definition p,.example p,.offset p {
-    color: #5f6e86;
+    color: #9e9393;
     font-size: 0.875rem
 }
 
@@ -1901,7 +1901,7 @@ hr {
 }
 
 .attributes__heading,.relationships__heading,.metas__heading,.authentications__heading,.parameters__heading,.filters__heading {
-    color: #5f6e86;
+    color: #9e9393;
     font-weight: 200;
     font-size: 1.15rem;
     margin-top: 0;
@@ -1961,7 +1961,7 @@ hr {
 
 .filter__example {
     float: left;
-    color: #5f6e86;
+    color: #9e9393;
     width: 100%;
     margin-top: 1rem !important;
     background-color: #f7f8fb
@@ -1990,7 +1990,7 @@ hr {
     width: 100%;
     height: 100%;
     padding: 1rem;
-    background-color: rgba(0,19,49,0.8);
+    background-color: rgba(21,14,14,0.8);
     z-index: 100
 }
 

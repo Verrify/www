@@ -26,20 +26,23 @@ exclude:
 
 
 navigation:
-  - label: Technology
+  - label: Example Page
     url: /technology
-  - label: Documentation
+  - label: Example Page
     url: /docs
-  - label: Contact
+  - label: Example Page
     url: /contact
 
 
 navigation-footer:
-  - label: Company
-    url: /company
+#  - label: Company
+#    url: /company
   - label: Blog
     url: https://blog.verrify.com
-  - label: Privacy
-    url: /privacy
-  - label: Terms
-    url: /terms
+#  - label: Privacy
+#    url: /privacy
+#  - label: Terms
+#    url: /terms
+  - label: Contact
+#    url: /contact
+    url: mailto:hello@verrify.com

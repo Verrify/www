@@ -1,18 +1,12 @@
+{% if layout.id == "singlepage" %}
+
+<footer class="footer" style="border-top: none;">
+
+{% else %}
+
 <footer class="footer">
-	
-	{% if page.use-cta %}
 
-	<section class="cta">
-	    <div class="cta__content">
-	        <h2>{{ page.cta-title }}</h2>
-	        <h3>{{ page.cta-subtitle }}</h3>
-	        <a class="button" href="{{ page.cta-button-url }}">{{ page.cta-button-label }}</a>
-	    </div>
-	</section>
-
-
-
-	{% endif %}
+{% endif %}
 	
 	
     <div class="footer__content">© Verrify – All Rights Reserved – {{ site.email }}</div>

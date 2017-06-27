@@ -8,6 +8,10 @@
     	        <span class="logo__logotype effect--shuffle">{{ site.name }}</span>
     	    </a>
 			
+			
+			
+			{% if layout.id != "singlepage" %}
+
     	    <nav class="navigation" id="nav">
     	        <div class="navigation__hamburger" id="nav-toggle">
     	            <i class="material-icons">menu</i>
@@ -19,12 +23,15 @@
     	              <a href="{{ nav.url }}">{{ nav.label }}</a>
     	            </li>
 				{% endfor %}
-    	            <li>
+    	            <!-- <li>
     	                <a class="button button--size-small" href="/download">Download</a>
-    	            </li>
+    	            </li> -->
     	        </ul>
     	    </nav>
-    	
+
+
+			{% endif %}
+			    	
 		</div>	
 	</div>
 
